@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rujuta's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .overlay {
+            background: rgba(255,255,255,0.85);
+            min-height: 100vh;
+            padding: 40px 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: rgba(255,255,255,0.95);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+            padding: 32px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 32px;
+            margin-bottom: 10px;
+        }
+        .thought {
+            font-style: italic;
+            color: #7f8c8d;
+            margin: 24px 0;
+            font-size: 1.2rem;
+            border-left: 4px solid #2980b9;
+            padding-left: 16px;
+        }
+        .publications ul {
+            list-style: disc inside;
+            margin: 0;
+            padding: 0 0 0 20px;
+        }
+        .social-buttons {
+            margin-top: 32px;
+            display: flex;
+            gap: 16px;
+        }
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 18px;
+            border-radius: 24px;
+            border: none;
+            background: #2980b9;
+            color: #fff;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: background 0.2s;
+            cursor: pointer;
+        }
+        .social-btn.facebook {
+            background: #3b5998;
+        }
+        .social-btn:hover {
+            background: #1abc9c;
+        }
+        .social-btn svg {
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h1>Rujuta</h1>
+            <p><strong>Education:</strong> Pursuing PhD</p>
+            
+            <h2>Publications</h2>
+            <div class="publications">
+                <ul>
+                    <li>Springer: Research on Advanced Coding Techniques</li>
+                    <li>IEEE: Innovations in Computer Science Education</li>
+                </ul>
+            </div>
+            
+            <div class="thought">
+                "As a teacher, I believe in empowering my students to teach coding to others. Sharing knowledge multiplies learning and builds a stronger community."
+            </div>
+            
+            <h2>Connect with me</h2>
+            <div class="social-buttons">
+                <a class="social-btn" href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">
+                    <!-- LinkedIn SVG Icon -->
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.867-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.6 2 3.6 4.594v5.602z"/></svg>
+                    LinkedIn
+                </a>
+                <a class="social-btn facebook" href="https://www.facebook.com/your-facebook-id" target="_blank">
+                    <!-- Facebook SVG Icon -->
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.326v21.348c0 .733.592 1.326 1.325 1.326h11.495v-9.294h-3.128v-3.622h3.128v-2.672c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.312h3.587l-.467 3.622h-3.12v9.294h6.116c.733 0 1.325-.593 1.325-1.326v-21.349c0-.733-.592-1.326-1.325-1.326z"/></svg>
+                    Facebook
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
